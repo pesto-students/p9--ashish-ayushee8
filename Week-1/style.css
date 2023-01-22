@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.navbar {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  background-color: #444443;
+  color: #fafafa;
+  padding: 1rem 1rem;
+  position: relative;
+  margin-left: 40px;
+}
+.heading {
+  margin: 0.2rem;
+}
+.subheading {
+  margin-top: 15px;
+}
+.las {
+  margin: 3px 3px;
+}
+
+.content {
+  margin-left: 2px;
+}
+.playlist {
+  margin-top: 2.5rem;
+  margin-left: 40px;
+}
+td,
+th {
+  width: 500px;
+  height: 50px;
+  border: none;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.cat-cloud {
+  border: 1px solid black;
+  width: 175px;
+  color: blue;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* .imgCattyboard {
+  background-color: blueviolet;
+} */
+.player {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 0.4fr 2fr 3fr;
+  grid-template-rows: auto auto auto;
+  padding: 0.8rem;
+  background-color: #43689b;
+  color: #fafafa;
+}
+
+.playertext {
+  margin-top: 1.5rem;
+  line-height: 2;
+  padding: 0.3rem;
+}
+
+.playerControl{
+  display: flex;
+  justify-content: space-around;
+  padding: 0.3rem;
+  
+}
+.plcon{
+  margin-top: 2.4rem;
+  font-size: 2rem;
+}
+
+.toolbar{
+  width: 3vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+  position: absolute;
+  
+}
+
+.toolbar i{
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 3.8rem;
+}
